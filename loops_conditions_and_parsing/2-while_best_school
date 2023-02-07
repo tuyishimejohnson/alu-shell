@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 # Script displaying Best School 10 times
 
-while i<=10
-    print("Best School")
-    i=i+1 
+count=1
+
+while [ $count -le 10 ]
+
+do
+
+	echo "Best School"
+
+	  count=$((count + 1))
+
+done
