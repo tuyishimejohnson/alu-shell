@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+# Script displays time in hours
+
+hours=0
+
+while [ $hours -lt 13 ]
+
+do
+
+  minutes=0
+
+  while [ $minutes -lt 60 ]
+
+  do
+
+    echo "Hour: $hours"
+
+    echo $minutes
+
+    minutes=$((minutes + 1))
+
+  done
+
+  hours=$((hours + 1))
+
+done | head -n 70
