@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-# script that displays the time for 12 hours and 59 minutes
+# Script that displays the time for hours and minutes
 
 hour=0
 
