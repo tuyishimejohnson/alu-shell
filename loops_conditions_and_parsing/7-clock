@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-
 # Script that display hours and minutes
+
 
 hour=0
 
