@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Script displays time in hours
 
+
 hours=0
 
 while [ $hours -lt 13 ]
