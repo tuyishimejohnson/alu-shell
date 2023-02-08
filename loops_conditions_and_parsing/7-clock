@@ -1,46 +1,29 @@
 #!/usr/bin/env bash
-# Script that displays the time for hours and minutes
+
+# Script that display hours and minutes
 
 hour=0
 
-<<<<<<< HEAD
-
-
-
-while [ $=
-
-#!/usr/bin/env bash                  
-
-# Initialize the hours and minutes variables                                                                 
-
-hour=0                                                                                                       
-
-minute=1
-
-echo "Hours : $hour"
-
-=======
-
->>>>>>> 6bc3de86deee54d800de3f1b483791de12c6ce8f
-
-while [ $hour -lt 13 ]
+while [ $hour -lt 12 ]
 
 do
 
-       echo "Hour: $hour" | head -n 70
+  minute=0
 
-       minute=1
+  while [ $minute -lt 60 ]
 
-       while [ $minute -lt 60 ]
+  do
 
-       do
+    echo "Hour: $hour"
 
-              echo "$minute"
+    echo "$minute"
 
-              ((minute++ ))
+    minute=$((minute + 1))
 
-       done
+  done
 
-       ((hour++ )) 
+  hour=$((hour + 1))
 
 done
+
+				      
