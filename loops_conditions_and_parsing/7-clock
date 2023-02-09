@@ -2,16 +2,15 @@
 # Script that displays hours and minutes
 
 hour=0
-while [ $hour -lt 12 ]
+while [ $hour -lt 13 ]
 do
-  minute=0
-  while [ $minute -lt 60 ]
-  do
-    echo "Hour: $hour"
-    echo "$minute"
-    minute=$((minute + 1))
-  done
-  hour=$((hour + 1))
+        echo "Hour: $hour"
+        minute=1
+        while [ $minute -lt 60 ]
+	do
+		echo "$minute"
+		(( minute++ ))
+	done
+        ((hour++ ))
 done
-
 				      
