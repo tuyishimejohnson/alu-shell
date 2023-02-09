@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Script that displays hours and minutes
+
 hour=0
 while [ $hour -lt 12 ]
 do
