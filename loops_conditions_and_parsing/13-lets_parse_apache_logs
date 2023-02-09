@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# HTTPs status code
+# Script that group visitors by IP and HTTP
 awk '{print $1 " " $9}' apache-access.log
