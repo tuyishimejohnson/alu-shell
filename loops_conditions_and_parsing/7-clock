@@ -2,6 +2,7 @@
 # Script that displays hours and minutes
 hour=0
 <<<<<<< HEAD
+
 while [ $=
 #!/usr/bin/env bash                                                                                         
 # Initialize the hours and minutes variables                                                                 
