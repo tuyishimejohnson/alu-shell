@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Write a Bash script that displays indefinitely
 trap 'echo "I am invincible!!!"' 15
-while true:
+while true;
 do
 	echo "To infinity adn beyond"
 	sleep 2
