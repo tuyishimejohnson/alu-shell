@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Script that displays many things
-echo $$ /var/run/myscript.pid
+Nvar="/var/run/myscript.pid"
+echo $$ > Nvar
 while true;
 do
 	echo "To infinity and beyond"	
