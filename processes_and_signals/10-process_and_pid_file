@@ -2,8 +2,8 @@
 # Script that displays many things
 Nvar="/var/run/myscript.pid"
 echo $$ > Nvar
+trap 'echo "I hate the kill command"; rm "$script"; kill' SIGTERM SIGQUIT
 while true;
 do
-	echo "To infinity and beyond"	
+	echo "To infinity and beyond"
 done
-trap 'echo "I hate the kill command"; rm "$script"; kill' SIGTERM SIGQUIT
