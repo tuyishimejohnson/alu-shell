@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Script that displays many things
-Nvar="/var/run/myscript.pid"
-echo $$ > "$Nvar"
+# Bash script that displays many things
+script="/var/run/myscript.pid"
+echo $$ > "$script"
 trap 'echo "I hate the kill command"; rm "$script"; exit' SIGTERM SIGQUIT
 while true;
 do
-	echo "To infinity and beyond"
+        echo "To infinity and beyond"
 done
