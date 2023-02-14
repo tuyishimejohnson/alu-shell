@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Script that displays many things
+echo $$ /var/run/myscript.pid
+while true;
+do
+	echo "To infinity and beyond"	
+done
+trap 'echo "I hate the kill command"; rm "$script"; kill' SIGTERM SIGQUIT
